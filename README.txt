@@ -1,8 +1,16 @@
 msp430_macosx
 =============
 
-MSP430 LaunchPad (MSP-EXP430G2) under Mac OS X with MSP430-GCC-OPENSOURCE.
-http://www.ti.com/tool/msp430-gcc-opensource
+MSP430 LaunchPad (MSP-EXP430G2) under Mac OS X with:
+1) MSP430-GCC-OPENSOURCE http://www.ti.com/tool/msp430-gcc-opensource
+2) CCS
+3) Energia
+
+Additionally were installed:
+$ brew install libusb
+$ brew install libusb-compat
+$ brew install libelf
+$ brew install mspdebug
 
 
 ~/.gitconfig
